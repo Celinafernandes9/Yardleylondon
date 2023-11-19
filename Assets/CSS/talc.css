@@ -28,11 +28,12 @@ nav img {
   font-size: 22px;
 }
 
-.text h1 i {
+.text i {
   color: #4a5588;
   font-family: raleway, sans-serif;
   text-transform: uppercase;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .text p {
@@ -115,21 +116,17 @@ nav img {
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
-  /* justify-content: space-between; */
-
 }
 .list {
   float: left;
   text-align: center;
-  margin: 24px;
+  margin:  auto 24px;
 }
 
 .list img {
   width: 180px;
   float: left;
-  height: 180px;
   cursor: pointer;
-  margin-bottom: 20px;
   padding: 10px;
 margin-left: -8px;
 }
