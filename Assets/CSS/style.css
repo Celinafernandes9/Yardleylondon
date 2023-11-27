@@ -4,29 +4,24 @@
   margin: 0;
   padding: 0;
   color: #00537a;
-  background-color: #f8f5f6;
   font-family: "Montserrat", sans-serif;
 }
 
+
+
 /* navbar */
 
-.header {
-  position: fixed;
-  height: 100px;
-  width: 100%;
-  z-index: 100;
-  overflow:hidden;
-  top: 0;
-  left: 0;
-}
-
 .navbar {
-  height: 77px;
+  height: 100px;
+  background-color: rgb(197, 167, 226);
+position:fixed;
 }
 
-.navbar li {
-  list-style: none;
-  margin: 0 20px;
+.navbar-brand{
+  height: 180px;
+  width: 200px;
+  margin-top:7%;
+
 }
 
 /* slide */
@@ -126,6 +121,7 @@ h3{
   bottom: 0;
   width: 100%;
   height: 80px;
+  background-color: rgb(183, 195, 207);
 }
 
 .copyright{
